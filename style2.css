@@ -1,0 +1,58 @@
+body {
+	background-image: url(blackbeard.jpg);
+	background-repeat: no-repeat;
+	background-size: 1530px 800px;
+}
+/*descendant selector*/
+.logos img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 8px white;
+}
+/*tag selector*/
+h1 {
+	color: white;
+	font-size: 4em
+}
+h2{
+	color: white;
+}
+li {
+	color: white;
+	font-size: x-large;
+}
+
+/*multiple selector*/
+h3, p {
+	color: white;
+	font-family: monospace;
+}
+input[type=text] {
+	background: violet;
+	border-radius: 10px
+	width: 200px;
+	height: 25px;
+	font-size: 15px
+}
+input[type=email] {
+	background: violet;
+	border-radius: 10px
+	width: 200px;
+	height: 25px;
+	font-size: 15px
+}
+input[type=password] {
+	background: violet;
+	border-radius: 10px
+	width: 200px;
+	height: 25px;
+	font-size: 15px
+}
+input[type=submit] {
+	background: white;
+	border-radius: 10px
+	width: 200px;
+	height: 25px;
+	font-size: 15px
+}
